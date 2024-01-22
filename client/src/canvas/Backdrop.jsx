@@ -19,14 +19,14 @@ const Backdrop = () => {
         amount={4}
         radius={9}
         intensity={1.55}
-        ambient={0.17}
+        ambient={0.2}
         position={[5, 5, -10]}
       />
       <RandomizedLight 
         amount={4}
         radius={5}
-        intensity={1.35}
-        ambient={0.55}
+        intensity={1.65}
+        ambient={0.5}
         position={[-5, 5, -9]}
       />
     </AccumulativeShadows>
